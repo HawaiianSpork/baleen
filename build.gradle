@@ -32,7 +32,7 @@ subprojects {
         testCompile 'org.junit.jupiter:junit-jupiter-api:5.0.2'
         testCompile 'org.assertj:assertj-core:3.9.1'
         testRuntime 'org.junit.jupiter:junit-jupiter-engine:5.0.1'
-        testRuntime 'org.junit.platform:junit-platform-runner:1.1.0'
+        testRuntime 'org.junit.platform:junit-platform-runner:1.4.2'
     }
 
     task sourceJar(type: Jar, dependsOn: classes) {
